@@ -7,10 +7,12 @@ paths = glob.glob("./images/*/*.jpg")
 
 
 def data_augmenter():
+    pass
 
 for path in paths:
-    
-    data_augmenter()
+ 
+    data_augmenter(path)
+  
 
 
 
