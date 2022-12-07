@@ -202,10 +202,10 @@ def data_augmenter(path):
     bilateral_new, gauss_new, wiener_new = four_process_new(image_orig)
     convoleOutput, opencvOutput, convoleOutput, opencvOutput = sobel(image_orig)
 
-    bright_image1 = bright1(image_orig)
-    bright_image2 = bright2(image_orig)
-    bright_image3 = bright3(image_orig)
-    bright_image4 = bright3(image_orig)
+    # bright_image1 = bright1(image_orig)
+    # bright_image2 = bright2(image_orig)
+    # bright_image3 = bright3(image_orig)
+    # bright_image4 = bright3(image_orig)
 
     cv2.imwrite(f"{save_path}_clahe.jpg",clahe)
     cv2.imwrite(f"{save_path}_negative.jpg",negative_image)
@@ -225,10 +225,10 @@ def data_augmenter(path):
     cv2.imwrite(f"{save_path}_sobel_convoleOutput.jpg",convoleOutput)
     cv2.imwrite(f"{save_path}_sobel_opencvOutput.jpg",opencvOutput)
 
-    cv2.imwrite(f"{save_path}_bright_image1.jpg",bright_image1)
-    cv2.imwrite(f"{save_path}_bright_image2.jpg",bright_image2)
-    cv2.imwrite(f"{save_path}_bright_image3.jpg",bright_image3)
-    cv2.imwrite(f"{save_path}_bright_image4.jpg",bright_image4)
+    # cv2.imwrite(f"{save_path}_bright_image1.jpg",bright_image1)
+    # cv2.imwrite(f"{save_path}_bright_image2.jpg",bright_image2)
+    # cv2.imwrite(f"{save_path}_bright_image3.jpg",bright_image3)
+    # cv2.imwrite(f"{save_path}_bright_image4.jpg",bright_image4)
 
 
 for path in paths:
