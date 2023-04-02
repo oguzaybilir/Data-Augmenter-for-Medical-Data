@@ -229,12 +229,3 @@ def data_augmenter(path):
     # cv2.imwrite(f"{save_path}_bright_image2.jpg",bright_image2)
     # cv2.imwrite(f"{save_path}_bright_image3.jpg",bright_image3)
     # cv2.imwrite(f"{save_path}_bright_image4.jpg",bright_image4)
-
-
-for path in paths:
-    
-    data_augmenter
-
-
-
-def data_augmenter():
