@@ -5,10 +5,6 @@ import glob
 
 paths = glob.glob("./images/*/*.jpg")
 
-for path in paths:
-    
-    data_augmenter
 
+def data_augmenter(paths):
 
-
-def data_augmenter():
